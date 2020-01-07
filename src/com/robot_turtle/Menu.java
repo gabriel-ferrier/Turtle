@@ -21,6 +21,7 @@ public class Menu {
         if (bouton2) : nombre_joueurs = 3
         if (bouton3) : nombre_joueurs = 4
          */
+        Fenetre menu = new Fenetre();
     }
 
 

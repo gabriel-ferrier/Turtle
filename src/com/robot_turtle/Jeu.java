@@ -14,7 +14,9 @@ public class Jeu {
         mes_cartes.get(0).piocher();
     }
 
-    public static void main(String[] args){
+    public static void Jeu(String[] args){
+        Menu menu = new Menu();
+        menu.afficherMenu();
         Jeu jeu = new Jeu();
         jeu.piocher_carte();
     }
